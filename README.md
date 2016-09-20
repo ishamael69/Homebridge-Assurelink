@@ -23,7 +23,7 @@ If you have multiple garage doors connected to your Assurelink account, the plug
           "name": "Side Garage Door",
           "username": "<your Assurelink email address>",
           "password": "<your Assurelink password>",
-          "deviceID": "<device ID>"
+          "requiredDeviceId": "<device ID>"
         }
       ]
     }
