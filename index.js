@@ -127,7 +127,7 @@ LiftMasterAccessory.prototype = {
             }
 
             // We specified a door ID, sanity check to make sure it's the one we expected
-             else if (that.deviceID == device.MyQDeviceId) {
+             else if (that.requiredDeviceId == device.MyQDeviceId) {
               var thisDeviceId = device.MyQDeviceId;
               for (var j = 0; j < device.Attributes.length; j ++) {
                 var thisAttributeSet = device.Attributes[j];
